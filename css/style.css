@@ -1,0 +1,312 @@
+header{
+    background-color:rgb(148, 148, 144);
+    border: 2px solid rgb(252, 232, 208);
+    height:128px;
+  }
+  .navbar li{
+      float:left;
+      /* background-color:rgb(103, 166, 196);*/
+      list-style:none;
+      margin:13px 55px;
+      border-radius: 5px;
+      cursor:pointer;
+      padding: 20px 20px;
+      text-decoration :none;
+      color: black;
+      font-weight:bold;
+      font-size: 30px;
+      justify-content:space-evenly;
+  }
+  .navbar li a{
+   text-decoration :none;
+   font-size: 30px;
+   color: black;
+   background-color:rgb(211, 221, 250);
+
+padding: 10px 10px;
+
+  }
+  .navbar li:hover {
+      background-color:rgb(211, 221, 250);
+   }
+  .navbar .Logo {
+      float:left;
+      width: 90px;
+      text-align: center;
+  }
+  .navbar .Logo img {
+      height: 90px;
+      width: 90px;
+  }
+  .navbar .Logo div{
+      text-align:left;
+      font-weight: bold;
+
+  }
+  .navbar div{
+      float:right;
+      
+      
+  }
+  .navbar .search button{
+      background-color: rgb(255, 102, 122);
+      font-weight: bold;
+      border-radius: 2px;
+      height: 30px;
+      padding: auto 15px;
+      color:black;
+      
+  }
+  .navbar ul{
+      overflow:auto;
+  }
+  .navbar input{
+   border-radius:20px;
+   padding:10px 10px;
+   cursor:pointer;
+  }
+  .firstContainer a{
+    border-radius:20px;
+    padding:10px 10px;
+    cursor:pointer;
+    background-color:rgb(133, 198, 224);
+    text-decoration:none;
+    font-weight: bold;
+
+  }
+  .firstContainer{
+      background: url("/Images/background_img.jpg");
+      height: 500px;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+  }
+  .firstContainer #item1{
+      font-weight: bold;
+      font-size: 60px;
+      margin: 15px 15px;
+  }
+  .firstContainer #item2{
+      font-weight: bold;
+      font-size: 40px;
+      margin: 15px;
+  }
+  .firstContainer a{
+      background-color: rgb(245, 78, 78);
+      font-weight: bold;
+      color: black;
+      font-size: 20px;
+      
+  }
+
+  .secondContainer{
+     
+      justify-content:center;
+      align-items:center;
+      padding: 32px;
+      background-color: rgb(232, 247, 102);
+  }
+  .secondContainer #box1{
+      text-align: center;
+      font-weight:bolder;
+      font-size: 30px;
+      color: rgb(223, 99, 27);
+      
+  }
+  .thirdContainer{
+      display: flex;
+      justify-content:space-between;
+      align-items:center;
+      padding: 32px;
+      background-color: rgb(204, 247, 136);
+  }
+  .thirdContainer #box2{
+      padding: 52px 32x;
+       background-color: rgb(152, 248, 55);
+       font-weight: bolder;
+       font-size: 20px;
+       text-align: center;
+  }
+  
+  .thirdContainer #box3{
+    padding: 32px 32x;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(152, 248, 55);
+    text-align: center;
+    color: black;
+     
+  }
+  .thirdContainer #box4{
+    padding: 32px 32x;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color:  rgb(152, 248, 55);
+    text-align: center;
+     
+  }
+  .fourthContainer{
+      display: flex;
+      justify-content:space-evenly;
+      height: 350px;
+      background-color: rgb(247, 244, 76);
+      background-repeat:repeat-x;
+      width: 100%;
+    
+      
+  }
+  
+  .fourthContainer div{
+
+      padding:60px 120px;
+      color: rgb(245, 72, 19);
+      font-size: larger;
+      z-index: 2;
+      font-size: 30px;
+  }
+  .fourthContainer div h4{
+    background-color: rgb(242, 250, 135);
+    border-radius: 20px;
+
+  }
+  .fourthContainer button{
+      border-radius: 5px;
+      background-color:rgb(253, 96, 91);
+      font-weight: bold;
+  }
+  .fifthContainer{
+      background-color:rgb(223, 247, 136)
+  }
+
+  .fifthContainer #boxi1{
+      text-align: center;
+      font-weight: bold;
+      font-size:30px;
+      padding: 32px;
+  }
+  
+.sixthContainer{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 32px;
+}
+
+.fifthContainer #boxi2{
+     align-self: center;  
+     background-color: rgb(252, 128, 235);
+     padding: 32px;
+     
+}
+.fifthContainer #boxi3{
+  align-self:center;  
+  background-color: rgb(250, 174, 240);
+  padding: 32px;
+
+}
+.fifthContainer #boxi4{
+  align-self:center;  
+  background-color: rgb(250, 115, 232);
+   padding: 32px;
+
+}
+.fifthContainer button{
+    margin: 24px 0px;
+    background-color: rgb(173, 247, 100);
+    font-weight: bold;
+}
+.container h1{
+    color:black;
+    text-align: center;
+}
+.formgroup input{
+    display: block;
+width: 63%;
+margin: 30px auto;
+padding: 2px 50px;
+border-radius: 5px;
+
+}
+.container button{
+    display:block;
+    width:33%;
+    margin:30px auto;
+}
+.seventhContainer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 198, 226);
+}
+.eighthContainer h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.eighthContainer{
+    background-color: cyan;
+}
+.container{
+    background-color: rgb(247, 147, 167);
+
+}
+.ninthContainer{
+     
+    justify-content:center;
+    align-items:center;
+    padding: 32px;
+}
+.ninthContainer #boxy1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.tenthContainer{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 32px;
+    background-color: rgb(252, 128, 235);
+}
+.tenthContainer #boxy2{
+     align-self: center;  
+     font-weight: bold;
+    font-size: 20px;
+}
+.tenthContainer #boxy3{
+  align-self:center;  
+  font-weight: bold;
+  font-size: 20px;
+}
+.tenthContainer #boxy4{
+  align-self:center;  
+  font-weight: bold;
+  font-size: 20px;
+   
+}
+.tenthContainer #boxy5{
+    align-self:center;  
+    font-weight: bold;
+    font-size: 20px;
+     
+  }
+  .c1{
+      display: flex;
+      flex-direction: column;
+  }
+  .c2{
+    display: flex;
+    flex-direction: column;
+}
+.c3{
+    display: flex;
+    flex-direction: column;
+}
+.c4{
+    display: flex;
+    flex-direction: column;
+}
+.eleventhContainer{
+    display: flex;
+    justify-content:space-evenly;
+}
